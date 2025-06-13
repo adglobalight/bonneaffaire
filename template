@@ -1,0 +1,5 @@
+npx create-next-app@latest bonneaffaire --typescript --tailwind
+cd bonneaffaire && git init
+git remote add origin https://github.com/bonneaffaire/bonneaffaire.git
+git add . && git commit -m "Initial commit"
+git push -u origin main
